@@ -1,8 +1,8 @@
 import React from 'react';
-import { jokes } from '../jokes';
-import { Joke } from './Joke';
+import { jokes } from '../../jokes';
+import Joke from '../Joke';
 
-export function Jokes() {
+function Jokes() {
   return (
     <div>
       {jokes.map((joke) => (
@@ -18,3 +18,5 @@ export function Jokes() {
     </div>
   );
 }
+
+export default Jokes;

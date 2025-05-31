@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
+import "./style.css";
 
-export function Joke({ avatar, name, text, initialLikes, initialDislikes }) {
+function Joke({ avatar, name, text, initialLikes, initialDislikes }) {
   const [likes, setLikes] = useState(initialLikes);
   const [dislikes, setDislikes] = useState(initialDislikes);
 
@@ -31,3 +32,5 @@ export function Joke({ avatar, name, text, initialLikes, initialDislikes }) {
     </div>
   );
 }
+
+export default Joke;

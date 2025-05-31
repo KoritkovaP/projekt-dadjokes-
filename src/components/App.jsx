@@ -1,6 +1,6 @@
 import React from 'react';
-import { Jokes } from './Jokes';
 import '../style.css';
+import Jokes from './Jokes';
 
 function App() {
   return (
