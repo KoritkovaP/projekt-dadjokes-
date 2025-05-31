@@ -1,7 +1,6 @@
+import React from 'react';
 import { createRoot } from 'react-dom/client';
-import { HomePage } from './pages/HomePage';
-import './global.css';
+import App from './components/App.jsx';
+import './style.css'; // import css
 
-createRoot(
-  document.querySelector('#app'),
-).render(<HomePage />);
+createRoot(document.getElementById('root')).render(<App />);
